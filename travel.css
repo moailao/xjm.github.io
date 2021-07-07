@@ -1,0 +1,162 @@
+body 
+{
+    line-height: 1;
+    background-color:#f1efe3;
+    margin:0 ; 
+    padding:0; 
+}
+body, p {
+    font: 12px/1 "\u5b8b\u4f53", Tahoma, Geneva, sans-serif;
+    color: #333;
+    font-family: "Microsoft YaHei";
+    text-decoration: none;   
+}
+.wrapper .inner 
+{
+    width: 1000px;
+    margin: 0 auto;
+}
+.wrapper 
+{ 
+    height: 50px;
+    background-color:  rgba(19, 67, 71, 0.9);
+    width:100%; 
+    margin:0  auto;
+    display: inline-block;
+}
+
+ol, ul {
+    list-style: none;
+}
+.wp_nav .item a {
+    font-size: 25px;
+    font-weight: normal;
+    color: #fff;
+    font-family: sans-serif;
+    display:block;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.wp_nav .item { 
+    height: 100%;
+    display:inline-block; 
+    width: 200px;
+    position:relative; 
+    vertical-align:bottom;
+}
+
+.fst h1{
+    margin-left:  20px; 
+    display: inline;
+    font-size: 34px;
+    line-height: 1.15;
+    font-weight: 300;
+}
+ .para {
+    display: inline-block;
+    width: 790px;
+    padding: 29px 29px 0;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 20px;
+    text-indent: 2em;
+    line-height: 24px;
+}
+.fst{
+    float: left;
+    width: 750px;
+    height: 690px;
+    border-top: 3px solid #00b9b7;
+    border-left: 2px solid #5895d5;
+    border-right: 2px solid #f3d426;
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+    margin-left: 140px;
+    justify-content: space-between;
+}
+.lft{
+    float: left;
+}
+.rgt{
+    float:right;
+}
+#move{
+    height: 500px;
+    background: url(images/IMG_20210501_114020.jpg)  no-repeat center 0;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+#BJ{            /*图片居中 */
+    text-align: center;     
+}
+#img{           /*图片宽度，高度 */
+   width: 900px;
+   height: 500px;
+}
+header {
+    border-top: solid 10px rgba(19, 67, 71, 0.9);
+    height: 250px;
+    padding: 20px 0 70px 0;
+    background: #2d6360 50% 0 url(images/huntington.jpg) no-repeat;
+    background-image: url(images/contours.png), url(images/noise.png), url(images/gridlines.png), url(images/huntington.jpg);
+    background-position: 0 0, 0 0, -5px -25px, 0 50%;
+    background-repeat: repeat, repeat, repeat, no-repeat;
+    text-align: center;
+}
+
+.whole{
+    height: 710px;
+}
+.part{
+    height: 500px;
+    padding: 3em 0;
+    background-color: rgba(138,188,159,0.5);
+    background-image: url(images/contours-opaque.png), url(images/gridlines-opaque.png), url(images/bamboo.png);
+    background-repeat: repeat, repeat, no-repeat;
+    background-size: auto, auto, cover;
+}
+h1{
+
+    color: #2e484c;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 50px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+p{
+    padding: 29px 29px 0;
+    font-size: 14px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin: 0.75em 0;
+    line-height: 2;
+    margin-left: 5px;
+}
+.lst p{
+    font-size: 1.4em;
+    line-height: 2;
+}
+.lst{
+    padding: 1em 12%;
+    background: #3e5d67;
+    background-attachment: fixed, fixed, fixed, scroll;
+    background-image: url(images/contours.png), url(images/gridlines.png), url(images/noise.png), url(images/koi.jpg);
+    background-position: 0 0, -5px -25px, 0 0, 0 50%;
+    background-repeat: repeat, repeat, repeat, no-repeat;
+    background-size: auto, auto, auto, cover;
+    font-size: 2em;
+    font-style: italic;
+    text-align: center;
+}
+a:hover { 
+    background-color: #2d6360;
+	}

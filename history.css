@@ -1,0 +1,109 @@
+body 
+{
+    line-height: 1;
+    background-color:#f1efe3;
+    margin:0 ; 
+    padding:0; 
+}
+header {
+    border-top: solid 10px rgba(19, 67, 71, 0.9);
+    height: 250px;
+    padding: 20px 0 70px 0;
+    background: #2d6360 50% 0 url(images/huntington.jpg) no-repeat;
+    background-image: url(images/contours.png), url(images/noise.png), url(images/gridlines.png), url(images/huntington.jpg);
+    background-position: 0 0, 0 0, -5px -25px, 0 50%;
+    background-repeat: repeat, repeat, repeat, no-repeat;
+    text-align: center;
+}
+h1{
+    color: #2e484c;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 50px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.wrapper .inner 
+{
+    width: 1000px;
+    margin: 0 auto;
+}
+.wrapper 
+{ 
+    height: 50px;
+    background-color:  rgba(19, 67, 71, 0.9);
+    width:100%; 
+    margin:0  auto;
+    display: inline-block;
+}
+
+ol, ul {
+    list-style: none;
+}
+.wp_nav .item a {
+    font-size: 25px;
+    font-weight: normal;
+    color: #fff;
+    font-family: sans-serif;
+    display:block;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.wp_nav .item { 
+    height: 100%;
+    display:inline-block; 
+    width: 200px;
+    position:relative; 
+    vertical-align:bottom;
+}
+a:hover { 
+    background-color: #2d6360;
+	}
+.part{
+    height: 800px;
+    padding: 3em 0;
+    background-color: rgba(138,188,159,0.5);
+    background-image: url(images/contours-opaque.png), url(images/gridlines-opaque.png), url(images/bamboo.png);
+    background-repeat: repeat, repeat, no-repeat;
+    background-size: auto, auto, cover;
+}
+.part h2{
+    border-left: 30px solid #5895d5;;
+    margin-left: 20px;
+}
+.part p{
+    margin-left: 20px;
+}
+.by{
+    float: left;
+}
+.lst{
+    height: 150px;
+    padding: 1em 12%;
+    background: #3e5d67;
+    background-attachment: fixed, fixed, fixed, scroll;
+    background-image: url(images/contours.png), url(images/gridlines.png), url(images/noise.png), url(images/koi.jpg);
+    background-position: 0 0, -5px -25px, 0 0, 0 50%;
+    background-repeat: repeat, repeat, repeat, no-repeat;
+    background-size: auto, auto, auto, cover;
+    font-size: 2em;
+    font-style: italic;
+    text-align: center;
+}
+.lst p{
+    font-size: 15px;
+}
+.foot_l_b {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
